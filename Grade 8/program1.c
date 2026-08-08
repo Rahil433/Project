@@ -5,7 +5,7 @@ void main()
  int num2 = 5;
  int sum, product;
  sum = num1 + num2 ;
- printf(“Sum= %d\n”, sum);
+ printf("Sum= %d\n", sum);
  product = num1* num2;
- printf(“Product= %d\n”, product);
+ printf("Product= %d\n", product);
 }
