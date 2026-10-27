@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Button Hover</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+    </style>
 </head>
 <body>
 
-    <button class="hover-btn">Hover Me</button>
+    <button>Hover Me</button>
 
 </body>
 </html>
-
-
-button {
-    background-color: blue;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: orange;
-    transform: scale(1.1);
-}
