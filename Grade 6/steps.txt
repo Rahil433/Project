@@ -1,1 +1,12 @@
 
+Python 3.9, 3.10, 3.11, or 3.12.
+
+pip install opencv-python==4.10.0.84
+
+pip install mediapipe==0.10.14
+
+pip install cvzone==1.6.1
+
+pip install pyserial==3.5
+
+pip install opencv-python==4.10.0.84 mediapipe==0.10.14 cvzone==1.6.1 pyserial==3.5
