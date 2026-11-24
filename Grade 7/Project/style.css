@@ -1,1 +1,121 @@
 
+body {
+    background-color: rgb(230, 245, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+img {
+    border-radius: 14px;
+}
+
+h1 {
+    color: white;
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: lavender;
+    font-size: 22px;
+}
+
+header,
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+footer {
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.content {
+    background-color: aquamarine;
+    color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding: 28px;
+    border-radius: 14px;
+    margin: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+button {
+    width: 150px;
+    height: 48px;
+    background-color: rgb(165, 42, 42);
+    color: white;
+    border: 2px solid gold;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.p1 {
+    background-color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.p2 {
+    color: darkgreen;
+    font-size: 17px;
+    padding: 18px;
+    margin: 15px;
+    background-color: rgb(210, 255, 230);
+    border-left: 6px solid rgb(0, 150, 90);
+    border-radius: 8px;
+}
+
+/* Button hover */
+
+/* Image hover */
+button:hover {
+  background-color: rgb(0, 9, 139);
+  border-color: white;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: rgb(210, 235, 255);
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 18px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
